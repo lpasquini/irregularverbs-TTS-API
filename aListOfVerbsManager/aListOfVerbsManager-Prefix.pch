@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'aListOfVerbsManager' target in the 'aListOfVerbsManager' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif
