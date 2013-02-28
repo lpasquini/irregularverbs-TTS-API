@@ -9,12 +9,12 @@
 		<dict>
 			<key>CFBundleTypeExtensions</key>
 			<array>
-				<string>mydoc</string>
+				<string>plist</string>
 			</array>
 			<key>CFBundleTypeIconFile</key>
 			<string></string>
 			<key>CFBundleTypeName</key>
-			<string>DocumentType</string>
+			<string>Verbs Document</string>
 			<key>CFBundleTypeOSTypes</key>
 			<array>
 				<string>????</string>

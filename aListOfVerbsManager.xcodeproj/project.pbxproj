@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		090242FB16DF72440089835D /* verbs.plist in Resources */ = {isa = PBXBuildFile; fileRef = 090242FA16DF72440089835D /* verbs.plist */; };
+		090242FD16DF813F0089835D /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 090242FC16DF813F0089835D /* AVFoundation.framework */; };
 		0948044E16995E9E00E2A68F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0948044D16995E9E00E2A68F /* Cocoa.framework */; };
 		0948045816995E9E00E2A68F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0948045616995E9E00E2A68F /* InfoPlist.strings */; };
 		0948045A16995E9E00E2A68F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0948045916995E9E00E2A68F /* main.m */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		090242FA16DF72440089835D /* verbs.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = verbs.plist; sourceTree = "<group>"; };
+		090242FC16DF813F0089835D /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		0948044916995E9E00E2A68F /* aListOfVerbsManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = aListOfVerbsManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0948044D16995E9E00E2A68F /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		0948045016995E9E00E2A68F /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -38,6 +42,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				090242FD16DF813F0089835D /* AVFoundation.framework in Frameworks */,
 				0948044E16995E9E00E2A68F /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -48,6 +53,7 @@
 		0948043E16995E9E00E2A68F = {
 			isa = PBXGroup;
 			children = (
+				090242FC16DF813F0089835D /* AVFoundation.framework */,
 				0948045316995E9E00E2A68F /* aListOfVerbsManager */,
 				0948044C16995E9E00E2A68F /* Frameworks */,
 				0948044A16995E9E00E2A68F /* Products */,
@@ -96,6 +102,7 @@
 		0948045416995E9E00E2A68F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				090242FA16DF72440089835D /* verbs.plist */,
 				0948045516995E9E00E2A68F /* aListOfVerbsManager-Info.plist */,
 				0948045616995E9E00E2A68F /* InfoPlist.strings */,
 				0948045916995E9E00E2A68F /* main.m */,
@@ -161,6 +168,7 @@
 				0948045E16995E9E00E2A68F /* Credits.rtf in Resources */,
 				0948046416995E9E00E2A68F /* ALOVDocument.xib in Resources */,
 				0948046716995E9F00E2A68F /* MainMenu.xib in Resources */,
+				090242FB16DF72440089835D /* verbs.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,6 +318,7 @@
 				0948046C16995E9F00E2A68F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
