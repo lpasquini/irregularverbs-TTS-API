@@ -16,6 +16,8 @@
 		0948046116995E9E00E2A68F /* ALOVDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 0948046016995E9E00E2A68F /* ALOVDocument.m */; };
 		0948046416995E9E00E2A68F /* ALOVDocument.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0948046216995E9E00E2A68F /* ALOVDocument.xib */; };
 		0948046716995E9F00E2A68F /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0948046516995E9F00E2A68F /* MainMenu.xib */; };
+		099C81A816E11C5E003C122C /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 099C81A716E11C5E003C122C /* README.md */; };
+		099C81AA16E11CD4003C122C /* screenshot1.png in Resources */ = {isa = PBXBuildFile; fileRef = 099C81A916E11CD4003C122C /* screenshot1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +37,8 @@
 		0948046016995E9E00E2A68F /* ALOVDocument.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ALOVDocument.m; sourceTree = "<group>"; };
 		0948046316995E9E00E2A68F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ALOVDocument.xib; sourceTree = "<group>"; };
 		0948046616995E9F00E2A68F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		099C81A716E11C5E003C122C /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		099C81A916E11CD4003C122C /* screenshot1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot1.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,10 +57,11 @@
 		0948043E16995E9E00E2A68F = {
 			isa = PBXGroup;
 			children = (
-				090242FC16DF813F0089835D /* AVFoundation.framework */,
+				099C81A716E11C5E003C122C /* README.md */,
 				0948045316995E9E00E2A68F /* aListOfVerbsManager */,
 				0948044C16995E9E00E2A68F /* Frameworks */,
 				0948044A16995E9E00E2A68F /* Products */,
+				099C81A916E11CD4003C122C /* screenshot1.png */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,6 +76,7 @@
 		0948044C16995E9E00E2A68F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				090242FC16DF813F0089835D /* AVFoundation.framework */,
 				0948044D16995E9E00E2A68F /* Cocoa.framework */,
 				0948044F16995E9E00E2A68F /* Other Frameworks */,
 			);
@@ -169,6 +175,8 @@
 				0948046416995E9E00E2A68F /* ALOVDocument.xib in Resources */,
 				0948046716995E9F00E2A68F /* MainMenu.xib in Resources */,
 				090242FB16DF72440089835D /* verbs.plist in Resources */,
+				099C81A816E11C5E003C122C /* README.md in Resources */,
+				099C81AA16E11CD4003C122C /* screenshot1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
